@@ -162,7 +162,7 @@
     });
   };
 
-  d3.csv('https://vizhub.com/ilovemanu/datasets/grad_by_cate.csv').then(loadedData => {
+  d3.csv('https://github.com/thiago092/tp_01_D3.Js/blob/main/data/grad_by_cate.csv').then(loadedData => {
     
     data = loadedData;
     data.forEach(d => {
