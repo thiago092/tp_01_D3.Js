@@ -185,7 +185,7 @@ $("#update").on("click", () => {
           .attr('r', circleRadius);
     };
   
-    d3.csv('https://vizhub.com/curran/datasets/auto-mpg.csv')
+    d3.csv('https://github.com/thiago092/tp_01_D3.Js/blob/main/data/auto-mpg.csv')
       .then(loadedData => {
         data = loadedData;
         data.forEach(d => {
