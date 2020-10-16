@@ -1,4 +1,4 @@
-$("#update").on("click", () => {
+
 
 (function (d3) {
     'use strict';
@@ -215,4 +215,4 @@ $("#update").on("click", () => {
   
   }(d3));
 
-});
+
