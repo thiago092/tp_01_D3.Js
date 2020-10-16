@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Blog Home - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-home.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/line.css">
+  <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">D3 LIB UFF </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Blog Entries Column -->
+      <div class="col-md-12">
+
+        <h1 class="my-4">LinePlot
+        </h1>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <svg id="line" width="1500" height="1500"></svg>
+
+
+          <div class="card-body">
+
+            <div id="menus_bar">
+              <div id="menus_line"></div>
+            </div>
+          </div>
+          <div class="card-footer text-muted">
+
+            <!-- width enter -->
+            <div class="card my-4">
+              <h5 class="card-header">Tamanho</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="text" id="width" class="form-control" placeholder="Largura">
+                  <input type="text" class="form-control" id="height" placeholder="Altura">
+                  <span class="input-group-append">
+                    <button class="btn btn-secondary" id="update" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Categories</h5>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="index.html">Scatter Plot</a>
+                      </li>
+                      <li>
+                        <a href="barplot.html">Bar Plot</a>
+                      </li>
+                      <li>
+                        <a href="LinePlot.html">Line Plot</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Como Utilizar</h5>
+              <div class="card-body">
+                Para iniciar o gráfico você deve setar a altura e largura no bloco tamanho e apertar o botão go!, para
+                melhor desempenho do gráfico recomendo que o tamanho seja limitado a 700 x 500!
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Sidebar Widgets Column -->
+
+  </div>
+  <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Thiago Carvalho 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+  <script src="js/LinePlot.js"></script>
+
+
+
+</body>
+
+</html>

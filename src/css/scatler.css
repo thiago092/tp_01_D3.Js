@@ -1,0 +1,45 @@
+#scatter body {
+  margin: 0px;
+  overflow: hidden;
+  }
+  
+  #scatter circle {
+    fill: red;
+    opacity: 0.3;
+  }
+  
+  #scatter text {
+    font-family: sans-serif;
+  }
+  
+  #scatter .tick text {
+    font-size:1.5em;
+    fill:#8E8883;
+  }
+  
+  #scatter .tick line {
+    stroke: #C0C0BB;
+  }
+  
+  #scatter .axis-label {
+    font-size:1.5em;
+    fill: #8E8883
+  }
+  
+  #scatter #menus {
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  #scatter #menus select {
+    font-size: 2rem;
+  }
+  
+  #scatter #menus select option {
+    font-size: 1rem;
+  }
+
+
+
+  
+  

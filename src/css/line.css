@@ -1,0 +1,42 @@
+#line body{
+    margin: 0px;
+    overflow: hidden;
+   }
+   
+   #line  .line-path{
+        fill:none;
+     stroke: orange;
+     stroke-width: 3;
+       
+   }
+   
+   #line  .title{
+       font-size: 1.7em;
+   }
+   
+   #line .tick text{
+     font-size:1.5em;
+     fill:#8E8883;
+   }
+   
+   #line .tick line{
+    stroke: #C0C0BB;
+   }
+   
+   #line .axis-label{
+   font-size:1.5em;
+    fill: #8E8883
+   }
+   
+   #line #menus{
+   text-align:center;
+   }
+   
+   #line #menus select{
+   
+   font-size: 1.5em;
+   }
+   
+   #line #menus select option{
+   font-size: 0.7em;
+   }
