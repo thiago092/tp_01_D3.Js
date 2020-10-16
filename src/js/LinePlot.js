@@ -59,7 +59,7 @@
           .attr('transform',`translate(${margin.left},${margin.top})`);
     
     
-    //draw Xaxis
+   
     const xAxis = d3.axisBottom(xScale)
         .tickSize(-innerheight)
         .tickPadding(10);
@@ -75,7 +75,7 @@
           .selectAll('.domain').remove();
    
     
-    //draw Yaxis
+ 
     const yAxis = d3.axisLeft(yScale)
             .tickSize(-innerwidth)
             .tickPadding(10);  
@@ -90,8 +90,7 @@
                      .selectAll('.domain').remove()
              ;
     
-    
-    //Axis lable
+  
     const xAxisLabelText = xAxisGEnter
                 .append('text')
                 .attr('class','axis-label')
@@ -139,11 +138,10 @@
   let yColumn;
 
 
-  //data handelling
+
   const render = (width, height) =>{  
 
   
-    //get column from dropdown menu and render plot
     const OnYColumnClicked = column => {
         yColumn = column;
         render(width, height);
@@ -170,10 +168,10 @@
     
   };
 
-  //get data and pass to data handelling
 
 
-  d3.csv('https://vizhub.com/norangai/datasets/price.csv').then(loadedData=>{
+
+  d3.csv('https://github.com/thiago092/tp_01_D3.Js/blob/main/data/price.csv').then(loadedData=>{
          data = loadedData;
     
    data.forEach(d => {
